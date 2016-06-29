@@ -1,0 +1,26 @@
+{
+  "name": "redux-bugsnag-middleware",
+  "version": "0.1.0",
+  "description": "Redux middleware that wraps exceptions in actions and sends them to Bugsnag with current state.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/babel-cli/bin/babel.js --presets es2015 index.js.es6 -o index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netguru/redux-bugsnag-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "bugsnag",
+    "middleware",
+    "react"
+  ],
+  "author": "Kuba Niechcial <jakub.niechcial@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+  }
+}
